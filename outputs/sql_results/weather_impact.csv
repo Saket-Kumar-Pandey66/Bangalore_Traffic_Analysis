@@ -1,0 +1,6 @@
+Weather_Conditions,record_count,avg_traffic_volume,avg_congestion,avg_speed
+Windy,428,30163.0,82.37,39.52
+Fog,959,29183.0,81.61,39.47
+Clear,5426,29167.0,80.72,39.47
+Rain,827,29559.0,80.54,39.28
+Overcast,1296,29053.0,80.3,39.43

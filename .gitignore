@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# R
+.Rhistory
+.RData
+
+# IDE
+.vscode/
+.idea/
+
+# Gemini
+.gemini/

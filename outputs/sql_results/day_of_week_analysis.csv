@@ -1,0 +1,8 @@
+day_of_week,avg_traffic_volume,avg_congestion,avg_speed
+Sunday,29105.0,81.02,39.38
+Monday,29510.0,81.42,39.24
+Tuesday,28911.0,80.33,39.55
+Wednesday,29698.0,81.28,39.41
+Thursday,29530.0,81.15,39.47
+Friday,28843.0,80.27,39.5
+Saturday,29063.0,80.28,39.59
