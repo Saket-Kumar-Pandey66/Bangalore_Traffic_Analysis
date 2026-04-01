@@ -87,4 +87,11 @@ echo "  └── traffic_analysis.db     (SQLite database)"
 echo ""
 echo "  Total plots: $(find outputs/plots outputs/r_plots -name '*.png' 2>/dev/null | wc -l) PNG files"
 echo ""
-echo "  Done! 🎉"
+
+# --- Step 6: Launch Dashboard ---
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  STEP 6: Launching Streamlit Dashboard..."
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+$PYTHON -m pip install streamlit pandas pillow --quiet 2>/dev/null || true
+echo "  Starting dashboard in your browser..."
+$PYTHON -m streamlit run dashboard.py
